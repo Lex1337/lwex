@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    font-family: 'Noto Sans Mono', monospace;
+    font-size: 15px;
+    color: #333;
+    line-height: 1.6;
+    
+    background-image: url(../img/v870-tang-36.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.nav{
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.nav_link{
+    display: inline-block;
+    vertical-align: top;
+    margin: 15px;
+
+    color: #333;
+    text-decoration: none;
+
+    transition: color 0.1s linear;
+}
+.nav_link:hover{
+    color: yellow;
+}
+
+
+.main {
+    
+}
+
+.container_main{
+    margin: 0 auto;
+    
+}
+
+
+
+
